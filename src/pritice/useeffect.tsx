@@ -1,10 +1,10 @@
 import React, { Fragment, useEffect } from 'react'
-import { useMemo, useState } from 'react'
+import { useState } from 'react'
 
 // 产品名称列表
 const nameList = ['apple', 'peer', 'banana', 'lemon']
 
-const Example = (props) => {
+const Example = () => {
   // 产品名称、价格
   const [price, setPrice] = useState(0)
   const [name, setName] = useState('apple')
